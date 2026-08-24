@@ -25,7 +25,7 @@ h1 {
 st.sidebar.title("SOYAPRIM")
 app_choice = st.sidebar.radio(
     "Choisissez une application :",
-    ("REFERENCE", "BANQUE", "ACHATS")
+    ("ACHATS", "REFERENCE", "BANQUE")
 )
 
 # Load the selected app
